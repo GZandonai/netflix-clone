@@ -1,0 +1,84 @@
+
+* {
+    box-sizing:border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    text-align: center;
+}
+
+h1{
+    color:rgb(185, 8, 8);
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    background-color: red;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+body {
+    background-color: black;
+    color:white;
+    font-family: sans-serif;
+    
+}
+.Logo { 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.botao_nav {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+}
+
+legend {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    color:rgb(187, 12, 12);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+fieldset {
+    border-radius: 20px;
+    border-color: rgb(97, 7, 7);
+    margin: 20px;
+    padding:20px;
+}
+
+.texto_opiniao {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.botao_enviar{
+    background-color: red;
+    padding: 3px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.botao_enviar:hover {
+    background-color: blue;
+}

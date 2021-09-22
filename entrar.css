@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+   text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    padding: 5px 20px;
+    border-radius: 15px;
+    color:white;
+    
+    
+}
+
+body{
+    background-color: black;
+    color:rgb(187, 13, 13);
+}
+
+main {
+    margin: 100px;
+}
+
+
+.Logo {
+    padding-top: 100px;
+}
